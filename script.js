@@ -65,6 +65,7 @@ document.querySelector('.check').addEventListener('click', function () {
       score = 0;
       document.querySelector('.score').textContent = score;
       displayMessage('You lost the game!!📌');
+      displayBody('#FB3640');
     }
     // Value not equal to guessing value
   }
